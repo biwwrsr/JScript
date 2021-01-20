@@ -22,3 +22,15 @@ for (let name of names){
     console.log(name);
 }
 
+
+
+
+console.log('-- do while --');
+index=0;
+do {
+    const name = names[index];
+    console.log(name);
+    index++;
+    
+} while (index != 3);
+
