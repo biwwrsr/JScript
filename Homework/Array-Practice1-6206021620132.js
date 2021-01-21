@@ -6,7 +6,7 @@ result = "";
 function checkvalue_and_value(values1, values2){
     var result = "";
     for (let index = 0 ; index < values1.length ; index++){
-        if (typeof values1[index] == typeof values2[index]){ //check
+        if (typeof values1[index] == typeof values2[index]){ 
             result += "True ";
         }
         else result += "False ";
