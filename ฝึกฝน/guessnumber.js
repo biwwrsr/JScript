@@ -21,6 +21,6 @@ function guessnumber(input){
         return("\nThe correct number is : " + num + "\n");
 }
 
-console.log(guessnumber(13)); //input number
+console.log(guessnumber(5)); //input number
 
 
