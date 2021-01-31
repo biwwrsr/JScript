@@ -3,11 +3,10 @@ function areaTriangle(b,h){
 } 
 
 function areaCircle(r){
-    return Math.PI * r*r;
+    return Math.PI *r*r;
 }
-
 function areaSqr(w,l){
     return w*l;
 }
 
-export { areaCircle, areaTriangle,areaSqr};
+export {areaCircle,areaTriangle,areaSqr};

@@ -7,6 +7,10 @@ class Song{
     play(){
         console.log("Song playing!");
     }
+    
+    stop(){
+        console.log("Stop playing");
+    }
 }
 const mySong = new Song();
-mySong.play();
+mySong.stop();
