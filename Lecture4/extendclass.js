@@ -1,7 +1,7 @@
 //Parent class
 class Media {
     constructor(info){
-        this.publishDate = info.publistDate;
+        this.publishDate = info.publishDate;
         this.name = info.name;
     }
 }
@@ -13,7 +13,6 @@ class Song extends Media {
         this.artist = songData.artist;
     }
 }
-
 
 const mySong = new Song({
     artist: "Queen",
