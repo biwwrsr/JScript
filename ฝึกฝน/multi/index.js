@@ -13,5 +13,4 @@ function printMultiply(){
     }
     output.innerHTML = outputhtml;
 }
-
 Submit.addEventListener('click', printMultiply);
