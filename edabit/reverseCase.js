@@ -3,4 +3,4 @@ function reverseCase(str) {
                 return chr ? match.toUpperCase() : match.toLowerCase();
             });
         }
-    console.log(reverseCase('AaBbc'));
+    console.log(reverseCase('WARISSARA prompab'));

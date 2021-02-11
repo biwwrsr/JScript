@@ -1,4 +1,4 @@
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
-console.log((numberWithCommas(1234567)));
+console.log((numberWithCommas(60000000)));
