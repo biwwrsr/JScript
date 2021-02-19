@@ -21,3 +21,4 @@ function getBudgets(Person) {
       { name: "Martin", age: 16, budget: 1600 },
     ])
   );
+  
