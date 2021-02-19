@@ -24,3 +24,4 @@ function equation(text){
     return sum;
 }
 console.log(equation("1+1+1+1+1"));
+

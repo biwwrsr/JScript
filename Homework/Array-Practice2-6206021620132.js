@@ -12,3 +12,4 @@ function interator(furniture){
 }
 
 interator(furniture);
+
